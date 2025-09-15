@@ -1,27 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier Prime', Courier, monospace;
-    background-color: #0F172A;
-    color: #E2E8F0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #eff7f6;
+    color: #162521;
 }
 
 body {
     height: 100vh;
     width: 100vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.container {
+    height: 20vh;
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    flex: 0 1 auto;
+    gap: 30px;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
-    text-transform: uppercase;
     margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 ul {
@@ -38,6 +59,7 @@ a {
 }
 
 .social-icons {
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
