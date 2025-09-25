@@ -1,2 +1,1 @@
-# odunlemi.github.io
-Proof notes.
+Hosts my current website
